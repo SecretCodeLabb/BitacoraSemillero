@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portafolio 3D</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <!-- Sidebar fija (misma del index) -->
+    <aside class="sidebar">
+      <div class="brand"><span class="dot"></span><h1>Portafolio de Coco</h1></div>
+
+      <div class="profile">
+        <img src="assets/img/portada-proyecto.jpg" alt="Portada proyecto" />
+        <h2>Resumen</h2>
+        <p>Portafolio multidisciplinar: 3D, interacción, bitácoras y procesos.</p>
+      </div>
+
+      <div class="section-title">Secciones</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="portfolio3d.html">Portafolio 3D</a></li>
+          <li><a href="bitacora-semillero.html">Bitácora del Semillero</a></li>
+          <li><a href="index.html">← Volver a inicio</a></li>
+        </ul>
+      </nav>
+
+      <div class="section-title">Redes</div>
+      <div class="social">
+        <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
+        <a href="https://instagram.com/tuusuario" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
+        <a href="mailto:tuemail@dominio.com">Email</a>
+      </div>
+    </aside>
+
+    <!-- Contenido -->
+    <main class="main">
+      <header class="header">
+        <h1>Portafolio 3D</h1>
+        <div class="meta">Última actualización: Sep 2025</div>
+      </header>
+
+      <!-- Proyecto: Hero -->
+      <section class="block">
+        <h3>Proyecto / Serie #1 — “Título del set 3D”</h3>
+        <p>Descripción breve del objetivo, software, técnicas (modelado, UVs, texturizado PBR, iluminación, render)…</p>
+        <div class="tags">
+          <span class="tag">Blender</span>
+          <span class="tag">Substance</span>
+          <span class="tag">Cycles</span>
+          <span class="tag">Hard Surface</span>
+        </div>
+
+        <div class="media" style="margin-top:12px">
+          <img src="assets/img/portada-proyecto.jpg" alt="Render hero" />
+        </div>
+        <div class="caption">Render principal 3840×2160 · Cycles · 1000 samples</div>
+      </section>
+
+      <!-- Galería tipo Behance -->
+      <section class="block">
+        <h3>Galería</h3>
+        <div class="gallery" style="margin-top:10px">
+          <div class="item">
+            <img src="assets/img/thumb-3d-1.jpg" alt="Detalle 1">
+            <div class="cap">Detalle 1 — texturas y materiales</div>
+          </div>
+          <div class="item">
+            <img src="assets/img/thumb-3d-1.jpg" alt="Detalle 2">
+            <div class="cap">Detalle 2 — vista lateral</div>
+          </div>
+          <div class="item">
+            <img src="assets/img/thumb-3d-1.jpg" alt="Wireframe">
+            <div class="cap">Wireframe — topología limpia</div>
+          </div>
+          <div class="item">
+            <img src="assets/img/thumb-3d-1.jpg" alt="Clay">
+            <div class="cap">Clay render — iluminación y volúmenes</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Video / breakdown -->
+      <section class="block">
+        <h3>Breakdown / Turntable</h3>
+        <div class="media">
+          <video controls>
+            <source src="assets/video/demo.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="caption">Turntable 1080p · Proceso de iluminación</div>
+      </section>
+
+      <!-- Texto de proceso -->
+      <section class="block">
+        <h3>Proceso</h3>
+        <p>
+          Idea → bloqueos → modelado → UVs → baking → materiales → iluminación →
+          render final → post. Herramientas y decisiones claves (ej. bevels, UDIMs, HDRIs, denoiser, etc.).
+        </p>
+      </section>
+
+      <!-- Duplicar lo anterior para más proyectos -->
+    </main>
+  </div>
+</body>
+</html>
